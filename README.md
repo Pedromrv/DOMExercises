@@ -194,3 +194,6 @@ padding: 24px;
 10. El primer botón de la barra de botones en la parte superior de ja página tiee el texto abrir/cerrar. Al pulsarlo se deben ocultar o mostrar los botones restantes, pero el de abrir/cerrrar debe quedar visible.
 	
 	El valor de la propiedad display de los botones es inline-block. La barra tiene el atributo class en botones y cada botón tiene como clase boton
+  
+    
+[Respuestas](/answers/answers.md)
