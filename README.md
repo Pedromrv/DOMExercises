@@ -1,5 +1,168 @@
 # DOMExercises
 
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Muestra 1 para ejarcicios dhtml</title>
+
+<style>
+
+.boton {
+
+border: 1px solid black;
+
+padding: 2px 10px;
+
+background: rgba(27, 109, 236, 0.61);
+
+color: white;
+
+font-family: Arial, sans-seriff;
+
+width: fit-content;
+
+display: inline-block;
+
+cursor: pointer;
+
+}
+
+  
+
+.paneles {
+
+display: flex;
+
+justify-content: center;
+
+margin-top: 32px;
+
+}
+
+  
+
+.paneles figure {
+
+width: 75px;
+
+}
+
+  
+
+.activo {
+
+color: blue;
+
+font-family: Arial, "sans-serif";
+
+}
+
+  
+
+.destacar {
+
+font-size: 18px;
+
+color: red;
+
+}
+
+  
+
+.carrusel {
+
+text-align: center;
+
+background: #727c331a;
+
+border: 1px solid black;
+
+width: fit-content;
+
+margin: 24px auto;
+
+width: 100px;
+
+padding: 24px;
+
+}
+
+</style>
+
+</head>
+
+  
+
+<body>
+
+<section class="botones">
+
+<div onclick="toggle()" class="boton">Abrir - cerrar</div>
+
+<div onclick="cambiar()" class="boton">Cambiar título</div>
+
+<div onclick="crearDiv()" class="boton">Crear bloque</div>
+
+<div onclick="borrarDiv()" class="boton">Borrar bloque</div>
+
+<div onclick="fuentesImg()" class="boton">Fuentes</div>
+
+<div onclick="intercalar()" class="boton">Subtitulo</div>
+
+</section>
+
+<header>
+
+<h1 id="titular" onclick="togleClase()">Hola Mundo</h1>
+
+</header>
+
+<div id="subtitulo" style="text-align:center">Página de muestra de javascript dhtml</div>
+
+<div class="paneles">
+
+<figure onclick="ponerPie(this)"><img src="../imgs/uno.png" width="33" height="75" alt="Número 1" />
+
+<figcaption></figcaption>
+
+</figure>
+
+<figure onclick="ponerPie(this)"><img src="../imgs/dos.png" width="50" height="75" alt="Número 2" />
+
+<figcaption></figcaption>
+
+</figure>
+
+<figure onclick="ponerPie(this)"><img src="../imgs/tres.png" width="49" height="75" alt="Número 3" />
+
+<figcaption></figcaption>
+
+</figure>
+
+</div>
+
+<div id="fuentes"></div>
+
+<div class="carrusel" data-img="0" onclick="cambiaImg()">
+
+<img src="../imgs/uno.png" alt="Diapositivas" id="diapo">
+
+</div>
+
+<!-- inicio de las funciones javascript pedidas en los ejercicios -->
+
+<script src="main.js"></script>
+
+</body>
+
+
+</html>
+
 1. En la página web modelo ves que tienes un titular **Hola Mundo**. Se trata de añadir una función javascript para que al pulsar el botón **cambiar** este título se convierta en **Hola Mundo con Javascript** . El unico cambio necesario es el bloque con el texto **cambiar** y  completar la función **cambiar()** que aparece en el código de la página.
 	Debe cambiar de **Hola Mundo** a **Hola Mundo Javascript**
 
