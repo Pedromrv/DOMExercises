@@ -72,10 +72,92 @@
 
 </body>
 
-
 </html>
 
 ```
+
+```css
+.boton {
+
+border: 1px solid black;
+
+padding: 2px 10px;
+
+background: rgba(27, 109, 236, 0.61);
+
+color: white;
+
+font-family: Arial, sans-seriff;
+
+width: fit-content;
+
+display: inline-block;
+
+cursor: pointer;
+
+}
+
+  
+
+.paneles {
+
+display: flex;
+
+justify-content: center;
+
+margin-top: 32px;
+
+}
+
+  
+
+.paneles figure {
+
+width: 75px;
+
+}
+
+  
+
+.activo {
+
+color: blue;
+
+font-family: Arial, "sans-serif";
+
+}
+
+  
+
+.destacar {
+
+font-size: 18px;
+
+color: red;
+
+}
+
+  
+
+.carrusel {
+
+text-align: center;
+
+background: #727c331a;
+
+border: 1px solid black;
+
+width: fit-content;
+
+margin: 24px auto;
+
+width: 100px;
+
+padding: 24px;
+
+}
+```
+
 
 1. En la página web modelo ves que tienes un titular **Hola Mundo**. Se trata de añadir una función javascript para que al pulsar el botón **cambiar** este título se convierta en **Hola Mundo con Javascript** . El unico cambio necesario es el bloque con el texto **cambiar** y  completar la función **cambiar()** que aparece en el código de la página.
 	Debe cambiar de **Hola Mundo** a **Hola Mundo Javascript**
