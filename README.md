@@ -154,10 +154,6 @@ padding: 24px;
 
 </div>
 
-<!-- inicio de las funciones javascript pedidas en los ejercicios -->
-
-<script src="main.js"></script>
-
 </body>
 
 
